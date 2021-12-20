@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
+    <script
+      src="https://kit.fontawesome.com/aa672fac3a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Navbar</title>
   </head>
 
@@ -20,12 +23,69 @@
       <div class="navlinks">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="service">Service</a></li>
+          <li><a href="#service">Service</a></li>
           <li><a href="about">About</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+    <section class="main">
+      <div class="firstHalf">
+        <div class="headline">We Provide Best Business Solution</div>
+        <div class="fhButton">
+          <button class="btnServ">Get Services</button>
+        </div>
+      </div>
+      <div class="secondHalf">
+        <img class="shImg" src="/img.jpg" alt="Image Here" />
+      </div>
+    </section>
+
+    <div class="services" id="service">
+      <h1 class="serviceheading">Our Services</h1>
+      <div class="servMain">
+        <div class="service">
+          <i class="fas fa-laptop-code"></i>
+          <h2>Web Development</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-mobile-alt"></i>
+          <h2>Mobile App Development</h2>
+        </div>
+
+        <div class="service">
+          <i class="fab fa-hive"></i>
+          <h2>Blockchain Development</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-user-lock"></i>
+          <h2>Network Security</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-search-dollar"></i>
+          <h2>Digital Marketing</h2>
+        </div>
+
+        <div class="service">
+          <i class="fab fa-amazon"></i>
+          <h2>E-Commerce Development</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="contact" id="contact">
+      <h1>Contact Us</h1>
+      <form action="#" method="post">
+        <input class="formName" type="text" name="name" id="name" />
+        <input class="formemail" type="email" name="email" id="email" />
+        <input class="formMsg" type="text" name="msg" id="msg" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div> -->
+
     <script src="script.js"></script>
   </body>
 </html>
